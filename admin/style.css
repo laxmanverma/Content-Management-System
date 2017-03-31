@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/*font-size: 100%;
+	font: inherit;*/
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+body{
+	background:#000;
+	background-image: url(giphy.gif);
+	background-repeat: no-repeat;
+	-webkit-background-size: 1000px;
+    -moz-background-size: 1000px;
+    -o-background-size: 1000x;
+	backgorund-size: 1000px;
+	background-position:center;
+	}
+	
+	.wrapper {
+		width:1000px; margin:auto;
+		opacity:0.9;
+		}
+
+	.header {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	color: #FC6;
+	background-image: url(bg-header.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	backgorund-size: cover;
+	
+	height: 120px;
+	width: 1000px;
+	border-bottom-width: 5px;
+	border-bottom-style: groove;
+	border-bottom-color:#009;
+	}
+	
+.left {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 18px;
+	font-weight: bold;
+	background:#03C;
+	text-align: right;
+	display: block;
+	float: left;
+	height: 800px;
+	width: 200px;
+	border-right-width: 5px;
+	border-right-style: groove;
+	border-right-color: #009;
+	
+}
+	.left a{
+		text-decoration:none;
+		color:#9F3;
+		font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size:18px;
+		text-align:right;
+		padding:8px;
+		margin-bottom:8px;
+		display:block;
+		}
+		.left a:hover{ text-decoration:underline; color:#9F3;}
+		.left a:visited{ color:#9F3; font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;}
+
+.right {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 18px;
+	color: #000;
+	background:#FFF;
+	/*background-image: url(bg-body.gif);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	backgorund-size: cover;*/
+	float: right;
+	height: 800px;
+	width: 795px;
+}
